@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#contact {
+    padding-top: 100px;
+    padding-bottom: 135px;
+    background: #0f183e;
+    position: relative;
+}
+
+#contact h3 {
+    font-family: "Antic Didone", serif;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 100px;
+}
+
+#contact h3::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background: #ffffff;
+    bottom: 6px;
+    left: 131px;
+}
+
+#contact h2 {
+    font-family: "Antic Didone", serif;
+    color: #ffffff;
+    font-size: 80px;
+    line-height: 100px;
+    font-weight: 700;
+    padding-top: 15px;
+    margin-left: 100px;
+}
+
+#contact .img img {
+    border-radius: 44px;
+    position: absolute;
+    top: 150px;
+    left: 570px;
+}
+
+.flower-text img {
+    padding-top: 70px;
+}
+
+.flower {
+    position: relative;
+}
+.flower-text .flower_img img {
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+}
+
+.email {
+    padding-top: 40px;
+}
+
+.email h4 {
+    font-family: "DM Sans", sans-serif;
+    color: #55585b;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    margin-left: 100px;
+}
+
+.email a {
+    font-family: "Antic Didone", serif;
+    color: #55585b;
+    font-size: 36px;
+    line-height: 18px;
+    font-weight: 600;
+    padding-top: 150px;
+    margin-left: 100px;
+    position: relative;
+    background: linear-gradient(to right, violet,
+            rgb(253, 5, 5),
+            rgb(44, 5, 219));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.email a::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 140px;
+    top: 195px;
+    left: 0;
+    background: linear-gradient(to left, rgb(110, 2, 110),
+            rgb(252, 8, 8),
+            rgb(0, 119, 255));
+}
+
+.submit {
+    padding-top: 40px;
+}
+.submit h5{
+    color: #b7b7c5;
+    font-weight: 400;
+}
+h6{
+    padding-top: 70px;
+    font-family: "Antic Didone", serif;
+    color: white;
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 600;
+}
+.branding p{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 500;
+    border: 1px solid #55585b;
+    border-radius: 43px;
+    text-align: center;
+    margin-top: 25px;   
+}
+.branding p:hover{
+    background: black;
+    /* border: 1px solid white; */
+    border-radius: 43px;
+    /* color: black; */
+}
+.webdesign p{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 500;
+    border: 1px solid #55585b;
+    border-radius: 43px;
+    text-align: center;
+    margin-top: 25px;
+}
+.webdesign p:hover{
+    background: black;
+    /* border: 1px solid red; */
+    border-radius: 43px;
+}
+.appdesign p{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 500;
+    border: 1px solid #55585b;
+    border-radius: 43px;
+    text-align: center;
+    margin-top: 25px;
+}
+.appdesign p:hover{
+    background: black;
+    /* border: 1px solid red; */
+    border-radius: 43px;
+}
+.logo p{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 500;
+    border: 1px solid #55585b;
+    border-radius: 43px;
+    text-align: center;
+    margin-top: 25px;
+}
+.logo p:hover{
+    background: black;
+    /* border: 1px solid red; */
+    border-radius: 43px;
+}
+.marketing p{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 500;
+    border: 1px solid #55585b;
+    border-radius: 43px;
+    text-align: center;
+    margin-top: 25px;
+}
+.marketing p:hover{
+    background: black;
+    /* border: 1px solid red; */
+    border-radius: 43px;
+}
+.development p{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 500;
+    border: 1px solid #55585b;
+    border-radius: 43px;
+    text-align: center;
+    margin-top: 25px;
+}
+.development p:hover{
+    background: black;
+    /* border: 1px solid red; */
+    border-radius: 43px;
+}
+.iosdevelopment p{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 500;
+    border: 1px solid #55585b;
+    border-radius: 43px;
+    text-align: center;
+    margin-top: 25px;
+}
+.iosdevelopment p:hover{
+    background: black;
+    /* border: 1px solid red; */
+    border-radius: 43px;
+}
+.designconcept p{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 500;
+    border: 1px solid #55585b;
+    border-radius: 43px;
+    text-align: center;
+    margin-top: 25px;
+}
+.designconcept p:hover{
+    background: black;
+    /* border: 1px solid red; */
+    border-radius: 43px;
+}
+.other p{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 500;
+    border: 1px solid #55585b;
+    border-radius: 43px;
+    text-align: center;
+    margin-top: 25px;
+}
+.other p:hover{
+    background: black;
+    /* border: 1px solid red; */
+    border-radius: 43px;
+}
+.quote p{
+    padding-top: 80px;
+    font-family: "Antic Didone", serif;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 700;
+}
+input{
+    width: 545px;
+    background: #0f183e;
+    border:1px solid #55585b;
+    border-radius: 22px;
+    padding: 28px;
+    font-size: 22px;
+    color: #55585b;
+}
+.email input{
+    width: 100%;
+}
+textarea{
+    margin-top: 40px;
+    background: #0f183e;
+    border:1px solid #55585b;
+    border-radius: 22px;
+    padding: 28px;
+    font-size: 22px;
+    color: #55585b;
+    width: 100%;
+    resize: none;
+}
+.budget p{
+    margin-top: 70px;
+    font-family: "Antic Didone", serif;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 700;
+}
+.price p{
+    background: #0f183e;
+    border:1px solid #55585b;
+    border-radius: 44px;
+    padding: 18px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 30px;
+}
+.price p:hover{
+    background: black;
+}
+.button a{
+    background: #020b18;
+    border:1px solid #55585b;
+    border-radius: 45px;
+    padding: 37px 71px 31px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    /* margin-top: 50px; */
+}
+.button{
+    margin-top: 80px;
+}
+.button a:hover{
+    background: #ffffff;
+    color: #020b18;
+}
