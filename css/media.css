@@ -1,0 +1,308 @@
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* .flower_img img {
+        position: absolute;
+        top: 13%;
+        left: 77%;
+        transform: translate(2%, -14%);
+        /* top: 0px; */
+        /* left: 0px; */
+    }
+    #contact .img img {
+        border-radius: 44px;
+        position: absolute;
+        top: 150px;
+        left: 514px;
+    } */
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    input {
+        width: 452px;
+        background: #0f183e;
+        border: 1px solid #55585b;
+        border-radius: 22px;
+        padding: 28px;
+        font-size: 22px;
+        color: #55585b;
+    }
+    #contact h2 {
+        font-family: "Antic Didone", serif;
+        color: #ffffff;
+        font-size: 67px;
+        line-height: 100px;
+        font-weight: 700;
+        padding-top: 15px;
+        margin-left: 98px;
+    }
+    #contact .img img {
+        border-radius: 44px;
+        position: absolute;
+        top: 150px;
+        left: 442px;
+    }
+    .flower_img img {
+        position: absolute;
+        top: 13%;
+        left: 78%;
+        transform: translate(5%, -16%);
+        /* top: 0px; */
+        /* left: 0px; */
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #contact h3 {
+        font-family: "Antic Didone", serif;
+        color: #ffffff;
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+        position: relative;
+        margin-left: 67px;
+    }
+    #contact h2 {
+        font-family: "Antic Didone", serif;
+        color: #ffffff;
+        font-size: 80px;
+        line-height: 103px;
+        font-weight: 700;
+        padding-top: 15px;
+        margin-left: 65px;
+        padding-right: 150px;
+    }
+    #contact .img img {
+        border-radius: 44px;
+        position: absolute;
+        top: 150px;
+        left: 486px;
+    }
+    .flower img {
+        padding-top: 35px;
+        position: relative;
+        padding-left: 40%;
+    }
+    .flower_img img {
+        position: absolute;
+        top: 13%;
+        left: 74%;
+        transform: translate(-363%, 142%);
+        /* top: 0px; */
+        /* left: 0px; */
+    }
+    .email h4 {
+        font-family: "DM Sans", sans-serif;
+        color: #55585b;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 600;
+        padding-bottom: 10px;
+        margin-left: 69px;
+    }
+    .email a {
+        font-family: "Antic Didone", serif;
+        color: #55585b;
+        font-size: 36px;
+        line-height: 18px;
+        font-weight: 600;
+        padding-top: 150px;
+        margin-left: 68px;
+        position: relative;
+        background: linear-gradient(to right, violet, rgb(253, 5, 5), rgb(44, 5, 219));
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    input {
+        width: 693px;
+        background: #0f183e;
+        border: 1px solid #55585b;
+        border-radius: 22px;
+        padding: 28px;
+        font-size: 22px;
+        color: #55585b;
+    }
+    .button a {
+        background: #020b18;
+        border: 1px solid #55585b;
+        border-radius: 45px;
+        padding: 32px 158px 26px;
+        font-size: 21px;
+        font-weight: 500;
+        color: #ffffff;
+        text-align: center;
+        font-family: "DM Sans", sans-serif;
+        /* margin-top: 50px; */
+        margin-left: 126px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #contact h2 {
+        font-family: "Antic Didone", serif;
+        color: #ffffff;
+        font-size: 65px;
+        line-height: 77px;
+        font-weight: 700;
+        padding-top: 15px;
+        margin-left: 44px;
+    }
+
+    #contact h3 {
+        font-family: "Antic Didone", serif;
+        color: #ffffff;
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+        position: relative;
+        margin-left: 45px;
+    }
+
+    .flower img {
+        padding-top: 27px;
+        position: relative;
+        padding-left: 194px;
+    }
+
+    /* .flower {
+    position: relative;
+} */
+.flower_img img {
+	position: absolute;
+	top: 11%;
+	left: 41%;
+	transform: translate(28%, 125%);
+	/* top: 0px; */
+	/* left: 0px; */
+}
+
+    #contact .img img {
+        border-radius: 44px;
+        position: absolute;
+        top: 144px;
+        left: 370px;
+        width: 159px;
+    }
+
+    .email h4 {
+        font-family: "DM Sans", sans-serif;
+        color: #55585b;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 600;
+        padding-bottom: 10px;
+        margin-left: 8px;
+    }
+
+    .email a {
+        font-family: "Antic Didone", serif;
+        color: #55585b;
+        font-size: 36px;
+        line-height: 18px;
+        font-weight: 600;
+        padding-top: 150px;
+        margin-left: 7px;
+        position: relative;
+        background: linear-gradient(to right, violet, rgb(253, 5, 5), rgb(44, 5, 219));
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    input {
+        width: 513px;
+        background: #0f183e;
+        border: 1px solid #55585b;
+        border-radius: 22px;
+        padding: 28px;
+        font-size: 22px;
+        color: #55585b;
+    }
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) and (min-width:320px) {
+    #contact h2 {
+        font-family: "Antic Didone", serif;
+        color: #ffffff;
+        font-size: 40px;
+        line-height: 48px;
+        font-weight: 700;
+        padding-top: 15px;
+        margin-left: 6px;
+    }
+
+    #contact h3 {
+        font-family: "Antic Didone", serif;
+        color: #ffffff;
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+        position: relative;
+        margin-left: 7px;
+    }
+
+    .flower img {
+        padding-top: 27px;
+        position: relative;
+        padding-left: 90px;
+    }
+
+    /* .flower {
+    position: relative;
+} */
+    .flower_img img {
+        position: absolute;
+        top: 11%;
+        left: 41%;
+        transform: translate(0%, -3%);
+        /* top: 0px; */
+        /* left: 0px; */
+    }
+
+    #contact .img img {
+        border-radius: 44px;
+        position: absolute;
+        top: 141px;
+        left: 197px;
+        width: 120px;
+    }
+
+    .email h4 {
+        font-family: "DM Sans", sans-serif;
+        color: #55585b;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 600;
+        padding-bottom: 10px;
+        margin-left: 8px;
+    }
+
+    .email a {
+        font-family: "Antic Didone", serif;
+        color: #55585b;
+        font-size: 36px;
+        line-height: 18px;
+        font-weight: 600;
+        padding-top: 150px;
+        margin-left: 7px;
+        position: relative;
+        background: linear-gradient(to right, violet, rgb(253, 5, 5), rgb(44, 5, 219));
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    input {
+        width: 295px;
+        background: #0f183e;
+        border: 1px solid #55585b;
+        border-radius: 22px;
+        padding: 28px;
+        font-size: 22px;
+        color: #55585b;
+    }
+}

@@ -46,26 +46,28 @@ a {
 }
 
 #contact .img img {
-    border-radius: 44px;
-    position: absolute;
-    top: 150px;
-    left: 570px;
+	border-radius: 44px;
+	position: absolute;
+	top: 150px;
+	left: 595px !important;
 }
 
-.flower-text img {
+.flower img {
     padding-top: 70px;
-}
-
-.flower {
     position: relative;
 }
-.flower-text .flower_img img {
-    position: absolute;
-    top: 50%;
-    left: 36%;
-    transform: translate(-50%, -50%);
-}
 
+/* .flower {
+    position: relative;
+} */
+.flower_img img {
+	position: absolute;
+	top: 13%;
+	left: 74%;
+	transform: translate(-2%, -13%);
+	/* top: 0px; */
+	/* left: 0px; */
+}
 .email {
     padding-top: 40px;
 }
