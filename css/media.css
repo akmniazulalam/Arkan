@@ -1,20 +1,5 @@
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    /* .flower_img img {
-        position: absolute;
-        top: 13%;
-        left: 77%;
-        transform: translate(2%, -14%);
-        /* top: 0px; */
-        /* left: 0px; */
-    }
-    #contact .img img {
-        border-radius: 44px;
-        position: absolute;
-        top: 150px;
-        left: 514px;
-    } */
-}
+@media (min-width: 1200px) {}
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
