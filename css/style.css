@@ -12,6 +12,7 @@ a {
     padding-bottom: 135px;
     background: #0f183e;
     position: relative;
+    scroll-behavior: smooth;
 }
 
 #contact h3 {
@@ -341,4 +342,186 @@ textarea{
 .button a:hover{
     background: #ffffff;
     color: #020b18;
+}
+#footer{
+    background: #0f183e;
+    /* text-align: center; */
+    padding-bottom: 10px;
+}
+#footer h2{
+    font-family: "Antic Didone", serif;
+    color: #ffffff;
+    font-size: 100px;
+    line-height: 110px;
+    letter-spacing: -2px;
+    font-weight: 700;
+    padding: 0 130px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+.discussproject a{
+    /* margin-top: 250px; */
+    padding: 44px 150px;
+    border-radius: 64px;
+    background: black;
+    color: #ffffff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: -0.28px;
+}
+.writemsg a{
+    /* margin-top: 250px; */
+    padding: 44px 140px;
+    background: #ffffff;
+    color: #171718;
+    border-radius: 64px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.28px;
+}
+.buttonText{
+    margin-top: 150px;
+}
+.copyright{
+    padding-top: 20px;
+}
+/* .copyright h6{
+    font-weight: 400px;
+    color: #ffffff;
+} */
+.copyright h6 span{
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+}
+.linkPart{
+    padding-top: 200px;
+}
+.behance h5{
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #ffffff;
+}
+.behance .col-lg-3{
+    width: 75%;
+}
+.behance .logo i{
+    color: #ffffff;
+    /* border: 1px solid black; */
+    background: rgb(3, 3, 170);
+    border-radius: 50%;
+    /* height: 50px;
+    width: 50px; */
+    padding: 20px;
+    /* text-align: center; */
+}
+.dribbble .col-lg-3{
+    width: 75%;
+}
+.dribbble .logo i{
+    color: #ffffff;
+    /* border: 1px solid black; */
+    background: rgb(3, 3, 170);
+    border-radius: 50%;
+    /* height: 50px;
+    width: 50px; */
+    padding: 20px;
+    /* text-align: center; */
+}
+.instagram .col-lg-3{
+    width: 75%;
+}
+.instagram .logo i{
+    color: #ffffff;
+    /* border: 1px solid black; */
+    background: rgb(3, 3, 170);
+    border-radius: 50%;
+    /* height: 50px;
+    width: 50px; */
+    padding: 20px;
+    /* text-align: center; */
+}
+.behance a{
+    color: #ffffff;
+}
+.behance{
+    position: relative;
+}
+.behance:hover{
+    border:1px solid black;
+    background: black;
+    border-width: 20px;
+    
+}
+.dribbble h5{
+    font-family: "DM Sans", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #ffffff;
+}
+.dribbble a{
+    color: #ffffff;
+}
+.dribbble{
+    position: relative;
+}
+.dribbble:hover{
+    border:1px solid black;
+    background: black;
+    border-width: 20px;
+    
+}
+.dribbble::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 336px;
+    background: black;
+    bottom: 75px;
+    left: 0px;
+}
+.instagram h5{
+    font-family: "DM Sans", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #ffffff;
+}
+.instagram a{
+    color: #ffffff;
+}
+.instagram{
+    position: relative;
+}
+.instagram:hover{
+    border:1px solid black;
+    background: black;
+    border-width: 20px;
+    
+}
+.instagram::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 336px;
+    background: black;
+    bottom: 75px;
+    left: 0px;
+}
+.behance::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 336px;
+    background: black;
+    bottom: 75px;
+    left: 0;
 }
